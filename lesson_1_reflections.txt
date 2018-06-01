@@ -15,7 +15,8 @@ What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    Fill in your answer here
+   Manually saving the changes gives more control over the automatic saving. However outomatic saving may be
+   safer because it saves almost all the changes made but it also saves unnessasary chages made.
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
