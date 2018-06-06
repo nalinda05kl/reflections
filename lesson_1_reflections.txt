@@ -1,31 +1,35 @@
-How did viewing a diff between two versions of a file help you see the bug that
+1. How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
     It showed the removed lines and added lines separately and we can compare them in order to find where
     we made the mistake. Direction of the arrow '<' or '>' indicate whether the line is removed or added.
 
-How could having easy access to the entire history of a file make you a more
+2. How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
     When working with 1000s of lines in a code it is almost impossible to find where exactly the typo is.
     Or it takes lot of time to fine and still you may not be able to find all mistakes. So having easy access
     to entire history of a file would give a detailed explanation of the evolution of the problem. 
 
-What do you think are the pros and cons of manually choosing when to create a
+3. What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
    Manually saving the changes gives more control over the automatic saving. However outomatic saving may be
    safer because it saves almost all the changes made but it also saves unnessasary chages made.
 
-Why do you think some version control systems, like Git, allow saving multiple
+4. Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Fill in your answer here
+    Firstly, in git, you create a repository first and do your projrct work their. In these projrcts most of the times, many 
+    files are linked together. So it ta always better to save all the existing and updated files once you have done a commit.
+    While, in google this is not the case. It treats files separatly because the are created in that way. Not like in the case
+    of repositories.
 
-How can you use the commands git log and git diff to view the history of files?
+5. How can you use the commands git log and git diff to view the history of files?
 
-    Fill in your answer here
+    git log: shows you the commits history with a link to each file set after a certain commit. 
+    git diff: can be used to find differences line by line in certain two versions of files.
 
 How might using version control make you more confident to make changes that
 could break something?
